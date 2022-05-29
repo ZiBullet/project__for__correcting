@@ -141,8 +141,8 @@
                     Ваш пол
                 </div>
                 <div class="calculating__choose" id="gender">
-                    <div class="calculating__choose-item calculating__choose-item_active">Женщина</div>
-                    <div class="calculating__choose-item">Мужчина</div>
+                    <div class="woman calculating__choose-item calculating__choose-item_active">Женщина</div>
+                    <div class="man calculating__choose-item">Мужчина</div>
                 </div>
 
                 <div class="calculating__subtitle">
@@ -158,10 +158,10 @@
                     Выберите вашу физическая активность
                 </div>
                 <div class="calculating__choose calculating__choose_big">
-                    <div id="low" class="calculating__choose-item">Низкая активность </div>
-                    <div id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
-                    <div id="medium" class="calculating__choose-item">Умеренная активность</div>
-                    <div id="high" class="calculating__choose-item">Высокая активность</div>
+                    <div data-active="low" id="low" class="calculating__choose-item">Низкая активность </div>
+                    <div data-active="small" id="small"  class="calculating__choose-item calculating__choose-item_active">Невысокая активность</div>
+                    <div data-active="medium" id="medium" class="calculating__choose-item">Умеренная активность</div>
+                    <div data-active="high" id="high" class="calculating__choose-item">Высокая активность</div>
                 </div>
 
                 <div class="calculating__divider"></div>
@@ -171,7 +171,7 @@
                         Ваша суточная норма калорий:
                     </div>
                     <div class="calculating__result">
-                        <span>2700</span> ккал
+                        <span class="result">2700</span> ккал
                     </div>
                 </div>
             </div>
@@ -249,15 +249,15 @@
                 <div class="title">Осталось до конца акции:</div>
                 <div class="timer">
                     <div class="timer__block">
-                        <span id="days">0</span>
+                        <span id="days">12</span>
                         дней
                     </div>
                     <div class="timer__block">
-                        <span id="hours">1</span>
+                        <span id="hours">7</span>
                         часов
                     </div>
                     <div class="timer__block">
-                        <span id="minutes">3</span>
+                        <span id="minutes">58</span>
                         минут
                     </div>
                     <div class="timer__block">
